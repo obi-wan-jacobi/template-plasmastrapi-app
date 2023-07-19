@@ -9,7 +9,6 @@
     "build": "npm run lint && npm run prettier-format && rimraf ./dist && webpack",
     "serve": "npm run build && webpack-dev-server"
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@types/node": "^10.17.60",
@@ -33,5 +32,14 @@
     "webpack-dev-server": "^4.15.0"
   },
   "author": "obi-wan-jacobi",
-  "license": ""
+  "license": "",
+  "dependencies": {
+    "@plasmastrapi/animation": "^1.0.3",
+    "@plasmastrapi/base": "^1.0.31",
+    "@plasmastrapi/diagnostics": "^1.0.19",
+    "@plasmastrapi/ecs": "^1.0.23",
+    "@plasmastrapi/engine": "^1.0.28",
+    "@plasmastrapi/html5-canvas": "^1.0.14",
+    "@plasmastrapi/physics": "^1.0.9"
+  }
 }
